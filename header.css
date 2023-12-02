@@ -31,3 +31,29 @@
     border: none;
     border-radius: 12px;
 }
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+}
+
+h1{
+margin-bottom: 0px;
+}
+
+h3{
+color: whitesmoke;
+line-height: 1.5rem;
+font-size: 15px;
+}
+
+.gallery-download{
+    height: 30px;
+    width: 150px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(83, 141, 236);
+    color: white;
+}
