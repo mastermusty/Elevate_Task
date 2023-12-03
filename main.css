@@ -1,3 +1,48 @@
-.main-topic{
+.main{
     text-align: center;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.button-gallery{
+    margin-bottom: 50px;
+}
+
+.button-two,.button-three,.button-four,.button-five{
+    height: 30px;
+    background-color: white;
+    width: 120px;
+    border: none;
+    color: rgb(40, 125, 210);
+    border-style: solid;
+    border-radius: 15px;
+    margin-right: 7px;
+}
+
+.button-one{
+    height: 27px;
+    width: 80px;
+    border: none;
+    background-color: rgb(40, 125, 210);
+    color: white;
+    border-radius: 10px;
+    margin-right: 7px;
+}
+
+.photos{
+    margin-bottom: 100px;
+}
+
+.first-photos-gallery, .second-photos-gallery{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+img{
+   width: 200px;
+   height: 100%;
+   margin-right: 10px;
 }
